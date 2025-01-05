@@ -1,0 +1,48 @@
+4. Prim’s Minimum Spanning Tree (MST)
+Problem: Find a minimum spanning tree in a weighted graph.
+Greedy Choice: Always add the edge with the smallest weight that connects to the MST.
+Time Complexity: O(V²) (or O((V + E) log V) with a priority queue)
+5. Kruskal’s Minimum Spanning Tree (MST)
+Problem: Find a minimum spanning tree using edge selection.
+Greedy Choice: Always pick the smallest available edge that doesn’t form a cycle.
+Time Complexity: O(E log E)
+6. Fractional Knapsack Problem
+Problem: Maximize the total value of items in a knapsack with a weight limit.
+Greedy Choice: Always pick the item with the highest value-to-weight ratio.
+Time Complexity: O(n log n) (due to sorting)
+7. Job Scheduling Problem (With Deadlines)
+Problem: Schedule jobs to maximize profit within given deadlines.
+Greedy Choice: Always select the job with the highest profit that can be scheduled before its deadline.
+Time Complexity: O(n log n)
+8. Optimal Merge Pattern
+Problem: Merge multiple files to minimize the total cost of merging.
+Greedy Choice: Always merge the two smallest files first.
+Time Complexity: O(n log n)
+9. Coin Change Problem (Greedy Version)
+Problem: Find the minimum number of coins needed to make a given amount (works for certain coin denominations).
+Greedy Choice: Always pick the largest denomination that doesn’t exceed the remaining amount.
+Time Complexity: O(n)
+10. Interval Scheduling Maximization
+Problem: Select the maximum number of non-overlapping intervals.
+Greedy Choice: Always select the interval with the earliest finish time.
+Time Complexity: O(n log n)
+11. Greedy Coloring of Graph
+Problem: Assign colors to graph vertices such that no two adjacent vertices share the same color using the minimum number of colors.
+Greedy Choice: Always color a vertex with the smallest available color.
+Time Complexity: O(V²)
+12. Egyptian Fraction
+Problem: Express a fraction as a sum of unique unit fractions.
+Greedy Choice: Always select the largest possible unit fraction smaller than the remaining fraction.
+Time Complexity: O(n)
+13. Set Cover Problem (Approximation)
+Problem: Cover all elements using the smallest number of sets.
+Greedy Choice: Always pick the set that covers the most uncovered elements.
+Time Complexity: O(n log m)
+14. Traveling Salesman Problem (Greedy Approximation)
+Problem: Find the shortest possible route visiting each city once and returning to the start.
+Greedy Choice: Always move to the nearest unvisited city.
+Time Complexity: O(n²)
+15. Greedy Spanning Tree Algorithm (Borůvka’s Algorithm)
+Problem: Another method to find a minimum spanning tree.
+Greedy Choice: Always add the smallest edge from each component.
+Time Complexity: O(E log V)
